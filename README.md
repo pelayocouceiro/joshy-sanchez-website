@@ -1,13 +1,30 @@
-# Joshy Sánchez — Entrenador personal (web)
+# Joshy Sánchez — Entrenador personal
 
-Landing page de Joshy Sánchez, entrenador personal especializado en mujeres (Madrid + online a toda España).
+Landing page de **Joshy Sánchez**, entrenador personal especializado en entrenamiento femenino (glúteos, piernas y abdomen, con foco en la técnica). Presencial 1:1 en Madrid y programa online para toda España.
 
-## Contexto
-Ver `BRIEF.md` para todo el contexto: marca, contenido, diseño, assets y plan de despliegue.
+## Tecnología
 
-## Estructura
-- `index.html` — web (v1, punto de partida; se puede rediseñar).
-- `images/` — todas las imágenes (foto real `joshi-portrait.jpg` + las generadas con IA).
+Sitio estático de una sola página, sin dependencias de build:
 
-## Deploy
-GitHub (github.com/pelayocouceiro) → Vercel → dominio (pendiente).
+- `index.html` — toda la web (HTML + CSS + JS en un único fichero).
+- `images/` — imágenes del sitio.
+
+Detalles destacables:
+
+- Tipografía **DM Sans** (Google Fonts).
+- Diseño responsive y con animaciones de aparición al hacer scroll (respetan `prefers-reduced-motion`).
+- HTML semántico y datos estructurados **JSON-LD** (`Person` + `ProfessionalService`) para mejorar la visibilidad en buscadores.
+
+## Desarrollo local
+
+No requiere instalación. Basta con servir la carpeta con cualquier servidor estático, por ejemplo:
+
+```bash
+python3 -m http.server 8000
+```
+
+Y abrir `http://localhost:8000`.
+
+## Despliegue
+
+Preparado para desplegarse en cualquier hosting estático (por ejemplo Vercel), con redepliegue automático en cada push a `main`.
