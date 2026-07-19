@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Internal planning doc (kept out of the public repo)
+BRIEF.md
+
+# Design exploration / scratch mockups
+_explore/
