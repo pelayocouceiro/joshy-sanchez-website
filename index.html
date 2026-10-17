@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Joshy Sánchez · Entrenador personal para mujeres | Madrid + Online</title>
-<meta name="description" content="Joshy Sánchez, entrenador personal especializado en entrenamiento femenino: glúteos, piernas y abdomen definido con foco en la técnica. Presencial 1:1 en Madrid y programa online +Forma +Fuerza para toda España." />
+<title>Joshy Sánchez · Entrenador personal online para mujeres | Desde Madrid para toda España</title>
+<meta name="description" content="Joshy Sánchez, entrenador personal online especializado en entrenamiento femenino: glúteos, piernas y abdomen definido con foco en la técnica. Programa online +Forma +Fuerza para toda España, desde Madrid." />
 <meta name="author" content="Joshy Sánchez" />
 <meta name="theme-color" content="#fffafc" />
 <link rel="canonical" href="https://joshysancheztrainer.com/" />
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:site_name" content="Joshy Sánchez · Entrenador personal" />
-<meta property="og:title" content="Joshy Sánchez · Entrenador personal para mujeres | Madrid + Online" />
-<meta property="og:description" content="Entrenamiento femenino con foco en la técnica: glúteos, piernas y abdomen definido. Presencial 1:1 en Madrid y programa online para toda España." />
+<meta property="og:title" content="Joshy Sánchez · Entrenador personal online para mujeres | Desde Madrid para toda España" />
+<meta property="og:description" content="Entrenamiento femenino online con foco en la técnica: glúteos, piernas y abdomen definido. Programa +Forma +Fuerza para toda España, desde Madrid." />
 <meta property="og:url" content="https://joshysancheztrainer.com/" />
 <meta property="og:image" content="https://joshysancheztrainer.com/images/Joshy-portrait.jpeg" />
 <meta name="twitter:card" content="summary_large_image" />
@@ -39,34 +39,30 @@
       "@type": "Person",
       "@id": "https://joshysancheztrainer.com/#joshy",
       "name": "Joshy Sánchez",
-      "jobTitle": "Entrenador personal",
-      "description": "Entrenador personal especializado en entrenamiento femenino: glúteos, piernas y abdomen definido con foco en la técnica.",
+      "jobTitle": "Entrenador personal online",
+      "description": "Entrenador personal online especializado en entrenamiento femenino: glúteos, piernas y abdomen definido con foco en la técnica. Desde Madrid para toda España.",
       "url": "https://joshysancheztrainer.com/",
       "image": "https://joshysancheztrainer.com/images/Joshy-portrait.jpeg",
       "email": "joshids8@gmail.com",
       "sameAs": ["https://www.instagram.com/joshysanchez.tr/"],
       "knowsAbout": ["Entrenamiento de fuerza", "Entrenamiento femenino", "Hipertrofia de glúteos y piernas", "Técnica de ejercicio", "Nutrición deportiva"],
-      "areaServed": ["Madrid", "España"]
+      "areaServed": "España"
     },
     {
       "@type": "ProfessionalService",
       "@id": "https://joshysancheztrainer.com/#service",
-      "name": "Joshy Sánchez · Entrenamiento personal para mujeres",
+      "name": "Joshy Sánchez · Entrenamiento personal online para mujeres",
       "image": "https://joshysancheztrainer.com/images/Joshy-portrait.jpeg",
       "url": "https://joshysancheztrainer.com/",
       "email": "joshids8@gmail.com",
       "priceRange": "€€",
       "founder": {"@id": "https://joshysancheztrainer.com/#joshy"},
-      "areaServed": [
-        {"@type": "City", "name": "Madrid"},
-        {"@type": "Country", "name": "España"}
-      ],
+      "areaServed": {"@type": "Country", "name": "España"},
       "sameAs": ["https://www.instagram.com/joshysanchez.tr/"],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Formas de entrenar con Joshy",
+        "name": "Programa online de Joshy",
         "itemListElement": [
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Entrenamiento presencial 1:1 en Madrid", "description": "Plan a medida y corrección de técnica en cada sesión, con foco en glúteos, piernas y abdomen."}},
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Programa online +Forma +Fuerza", "description": "Rutina adaptada a ti y a tu gimnasio, guía de técnica en vídeo, pautas de alimentación y seguimiento directo, para toda España."}}
         ]
       }
@@ -199,21 +195,40 @@
   .about-list li svg{width:24px;height:24px;flex:none;color:var(--coral)}
   @media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:36px}.about-photo{max-width:440px}}
 
-  /* Methods */
-  .methods-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-  .svc{border:1px solid var(--line);border-radius:var(--r-lg);padding:38px 34px;background:var(--white);transition:transform .18s,box-shadow .2s,border-color .2s;position:relative;overflow:hidden}
-  .svc.feat{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .svc.feat .tag{background:var(--coral);color:#fff}
-  .svc.feat>p{color:#cdbcc0}
-  .svc.feat li{color:#eaddd9}
-  .svc.feat li svg{color:var(--amber)}
-  .svc .tag{display:inline-block;background:var(--coral-soft);color:var(--coral-deep);font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:6px 13px;border-radius:100px;margin-bottom:18px;text-transform:uppercase}
-  .svc h3{font-size:1.6rem;margin-bottom:10px}
-  .svc>p{color:var(--muted);margin-bottom:24px}
-  .svc ul{list-style:none;display:grid;gap:13px}
-  .svc li{display:flex;gap:12px;align-items:flex-start;font-size:.99rem}
-  .svc li svg{width:20px;height:20px;flex:none;margin-top:1px;color:var(--coral)}
-  @media(max-width:760px){.methods-grid{grid-template-columns:1fr}}
+  /* Program (online) */
+  .section-head.wide{max-width:900px}
+  .program{display:grid;grid-template-columns:420px 1fr;gap:56px;align-items:center;background:var(--ink);color:#fff;border-radius:var(--r-lg);padding:48px}
+  .program-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .program .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:6px 13px;border-radius:100px;text-transform:uppercase}
+  .program .tag-solid{background:var(--coral);color:#fff}
+  .program .tag-soft{background:rgba(255,255,255,.08);color:var(--amber)}
+  .program h3{font-size:56px;font-weight:700;margin-bottom:16px}
+  .program-desc{color:#cdbcc0;font-size:1.05rem;margin-bottom:30px}
+  .program-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .program-cta small{color:#b3a498;font-size:.86rem;line-height:1.4}
+  .program-label{display:block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#b3a498;margin-bottom:16px}
+  .program-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .incl{display:flex;flex-direction:column;gap:18px;background:var(--ink-2);border:1px solid var(--line-dk);border-radius:20px;padding:24px}
+  .incl .ic{width:40px;height:40px;border-radius:12px;background:rgba(255,79,136,.16);display:flex;align-items:center;justify-content:center;flex:none}
+  .incl .ic svg{width:20px;height:20px;color:var(--amber)}
+  .incl p{font-size:17px;font-weight:600;color:#fff;line-height:1.35}
+  .steps-head{font-size:1.5rem;margin:64px 0 26px}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+  .step{border-top:2px solid var(--line);padding-top:22px}
+  .step:first-child{border-top-color:var(--coral)}
+  .step .n{display:block;color:var(--coral);font-size:15px;font-weight:700;margin-bottom:10px}
+  .step h4{font-size:20px;font-weight:700;letter-spacing:-.02em;line-height:1.2;margin-bottom:8px}
+  .step p{font-size:15px;color:var(--muted)}
+  @media(max-width:900px){
+    .program{grid-template-columns:1fr;gap:36px;padding:28px 22px}
+    .program h3{font-size:38px}
+    .program-cta .btn{width:100%}
+    .program-grid{grid-template-columns:1fr;gap:12px}
+    .incl{flex-direction:row;align-items:center;gap:14px;padding:16px 18px}
+    .incl p{font-size:16px}
+    .steps-head{margin-top:48px}
+    .steps{grid-template-columns:1fr;gap:28px}
+  }
 
   /* Before / after */
   .ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
@@ -293,7 +308,7 @@
       <a class="brand" href="#top" aria-label="Joshy Sánchez — inicio">Joshy<span>.</span></a>
       <div class="nav-links">
         <a href="#sobre">Sobre Joshy</a>
-        <a href="#metodos">Entrenamiento</a>
+        <a href="#metodos">El programa</a>
         <a href="#resultados">Resultados</a>
         <a href="#contacto">Contacto</a>
       </div>
@@ -305,7 +320,7 @@
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
   <div class="hero-media">
-    <img src="images/Joshy-training.jpeg" alt="Joshy Sánchez entrenando a una clienta en un gimnasio de Madrid" />
+    <img src="images/Joshy-training.jpeg" alt="Joshy Sánchez, entrenador personal online, en el gimnasio" />
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-grid-lines"></div>
@@ -313,13 +328,13 @@
     <div class="hero-content reveal">
       <p class="hero-hi"><span class="d"></span>Hola, soy Joshy</p>
       <h1>Piernas fuertes, glúteos <em>bonitos</em> y abdomen definido.</h1>
-      <p class="lead">Deja de improvisar en el gym. Te ayudo a conseguir tu cambio real con un plan hecho para ti, entrenando con cabeza y disfrutando del proceso.</p>
+      <p class="lead">Deja de improvisar en el gym. Te ayudo a conseguir tu cambio real con un plan online hecho para ti, entrenes donde entrenes.</p>
       <div class="hero-cta">
         <a class="btn btn-primary btn-lg" href="#contacto">
           Empezar ahora
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
         </a>
-        <a class="btn btn-ghost-light btn-lg" href="#metodos">Ver metodología</a>
+        <a class="btn btn-ghost-light btn-lg" href="#metodos">Ver el programa</a>
       </div>
     </div>
   </div>
@@ -335,14 +350,14 @@
     <div class="about-text reveal">
       <span class="eyebrow"><span class="d"></span>Sobre Joshy</span>
       <h2>Soy Joshy, entrenador especializado en mujeres</h2>
-      <p>Llevo años formando a mujeres en el gimnasio y ahora entreno por mi cuenta. Mi objetivo es simple: que consigas resultados reales entrenando con <em>técnica</em> y cabeza, sin cardio sin sentido.</p>
+      <p>Llevo años formando a mujeres en el gimnasio y ahora entreno online desde Madrid. Mi objetivo es simple: que consigas resultados reales entrenando con <em>técnica</em> y cabeza, sin cardio sin sentido.</p>
       <hr class="about-div" />
       <h3 class="about-sub">En qué te ayudo</h3>
       <ul class="about-list">
         <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12.4 3.3 3.3L17 9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Glúteos, piernas y abdomen definido</li>
         <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12.4 3.3 3.3L17 9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Técnica correcta en cada ejercicio</li>
         <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12.4 3.3 3.3L17 9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Plan adaptado a tu nivel y tu vida</li>
-        <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12.4 3.3 3.3L17 9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Seguimiento cercano, presencial u online</li>
+        <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="m7 12.4 3.3 3.3L17 9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Seguimiento cercano, estés donde estés</li>
       </ul>
     </div>
   </div>
@@ -351,33 +366,62 @@
 <!-- ============ METHODS ============ -->
 <section class="block" id="metodos">
   <div class="wrap">
-    <div class="section-head reveal">
-      <span class="eyebrow"><span class="d"></span>Entrenamiento</span>
-      <h2>Elige cómo quieres entrenar conmigo</h2>
-      <p>Sin complicaciones: nos conocemos, diseño tu plan y entrenamos con seguimiento cercano. Dos formas de trabajar juntos con el mismo compromiso, empieces donde empieces: un plan pensado para ti.</p>
+    <div class="section-head wide reveal">
+      <span class="eyebrow"><span class="d"></span>El programa</span>
+      <h2>Entrena conmigo, estés donde estés</h2>
+      <p>Entrena desde cualquier gimnasio de España. Yo diseño tu plan, te enseño la técnica y te acompaño cada semana desde Madrid.</p>
     </div>
-    <div class="methods-grid">
-      <div class="svc feat reveal">
-        <span class="tag">Presencial 1:1</span>
-        <h3>Entrenamiento en el gym</h3>
-        <p>Sesiones cara a cara en Madrid para corregir tu técnica en tiempo real y sacarle el máximo a cada entrenamiento.</p>
-        <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Plan de entrenamiento a medida</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Corrección de técnica en cada sesión</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Seguimiento y ajustes semanales</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Enfoque en glúteos, piernas y abdomen</li>
-        </ul>
-      </div>
-      <div class="svc reveal">
-        <span class="tag alt">Programa online</span>
+    <div class="program reveal">
+      <div>
+        <div class="program-tags">
+          <span class="tag tag-solid">Programa online</span>
+          <span class="tag tag-soft">Plazas limitadas</span>
+        </div>
         <h3>+Forma +Fuerza</h3>
-        <p>Mi programa para tonificar piernas y glúteos y definir el abdomen entrenes donde entrenes, con tu plan siempre en el móvil.</p>
-        <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Rutina adaptada a ti y a tu gimnasio</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Guía de técnica en vídeo de cada ejercicio</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Pautas de alimentación para perder grasa y ganar músculo</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg>Seguimiento y soporte directo conmigo</li>
-        </ul>
+        <p class="program-desc">Mi programa para tonificar piernas y glúteos y definir el abdomen entrenes donde entrenes, con tu plan siempre en el móvil.</p>
+        <div class="program-cta">
+          <a class="btn btn-primary" href="#contacto">Quiero mi plaza →</a>
+          <small>Toda España<br />desde Madrid</small>
+        </div>
+      </div>
+      <div>
+        <span class="program-label">Qué incluye</span>
+        <div class="program-grid">
+          <div class="incl">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M9.5 7h5M9.5 11h5M9.5 15h3"/></svg></span>
+            <p>Rutina adaptada a ti y a tu gimnasio</p>
+          </div>
+          <div class="incl">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2.5"/><path d="m16 10.5 6-3.5v10l-6-3.5"/></svg></span>
+            <p>Guía de técnica en vídeo de cada ejercicio</p>
+          </div>
+          <div class="incl">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+            <p>Pautas de alimentación para perder grasa o ganar músculo</p>
+          </div>
+          <div class="incl">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></span>
+            <p>Seguimiento semanal y soporte directo conmigo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="steps-head reveal">Cómo funciona</h3>
+    <div class="steps">
+      <div class="step reveal">
+        <span class="n">01</span>
+        <h4>Hablamos</h4>
+        <p>Me cuentas tu punto de partida, tus objetivos y tu disponibilidad. Sin compromiso.</p>
+      </div>
+      <div class="step reveal">
+        <span class="n">02</span>
+        <h4>Diseño tu plan</h4>
+        <p>Entrenamiento y alimentación adaptados a ti, a tu nivel y a tu gimnasio.</p>
+      </div>
+      <div class="step reveal">
+        <span class="n">03</span>
+        <h4>Entrenamos y avanzamos</h4>
+        <p>Seguimiento cercano, corrección de técnica y ajustes cada semana.</p>
       </div>
     </div>
   </div>
@@ -394,7 +438,7 @@
     <div class="ba-grid">
       <div class="ba-card reveal">
         <div class="ba-visual"><div class="ba-half before"><span>Antes</span></div><div class="ba-half after"><span>Después</span></div></div>
-        <div class="cap"><strong>El cambio de Lili</strong><small>16 semanas · presencial 1:1</small></div>
+        <div class="cap"><strong>El cambio de Lili</strong><small>16 semanas · programa online</small></div>
       </div>
       <div class="ba-card reveal">
         <div class="ba-visual"><div class="ba-half before"><span>Antes</span></div><div class="ba-half after"><span>Después</span></div></div>
@@ -402,7 +446,7 @@
       </div>
       <div class="ba-card reveal">
         <div class="ba-visual"><div class="ba-half before"><span>Antes</span></div><div class="ba-half after"><span>Después</span></div></div>
-        <div class="cap"><strong>El cambio de Carla</strong><small>6 meses · presencial 1:1</small></div>
+        <div class="cap"><strong>El cambio de Carla</strong><small>6 meses · programa online</small></div>
       </div>
     </div>
     <p class="ba-note">
@@ -431,7 +475,7 @@
       <div class="testi-card reveal">
         <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
         <p>“Por fin entiendo lo que hago en el gym. En unos meses he notado mis piernas y glúteos mucho más fuertes, y lo mejor es que disfruto entrenando.”</p>
-        <div class="who"><span class="av">L</span><span>Lili<small>Programa presencial</small></span></div>
+        <div class="who"><span class="av">L</span><span>Lili<small>Programa online</small></span></div>
       </div>
       <div class="testi-card reveal">
         <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
@@ -441,7 +485,7 @@
       <div class="testi-card reveal">
         <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
         <p>“Me corrigió la técnica desde cero. Ahora sí siento el glúteo trabajando y he mejorado un montón. 100% recomendable.”</p>
-        <div class="who"><span class="av">C</span><span>Carla<small>Programa presencial</small></span></div>
+        <div class="who"><span class="av">C</span><span>Carla<small>Programa online</small></span></div>
       </div>
     </div>
   </div>
@@ -480,11 +524,11 @@
         <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required />
       </div>
       <div class="field">
-        <label for="modalidad">¿Cómo prefieres entrenar?</label>
-        <select id="modalidad" name="modalidad">
-          <option>Presencial 1:1 (en el gym)</option>
-          <option>Online (+Forma +Fuerza)</option>
-          <option>Aún no lo sé, aconséjame</option>
+        <label for="lugar">¿Dónde vas a entrenar?</label>
+        <select id="lugar" name="lugar">
+          <option>En un gimnasio</option>
+          <option>En casa</option>
+          <option>Aún no lo sé</option>
         </select>
       </div>
       <div class="field">
@@ -503,12 +547,12 @@
     <div class="foot">
       <div>
         <div class="brand">Joshy<span>.</span></div>
-        <p>Entrenador personal · Entrenamiento femenino<br />Madrid + Online (toda España)</p>
+        <p>Entrenador personal online · Entrenamiento femenino<br />Desde Madrid para toda España</p>
       </div>
       <div class="foot-links">
         <a href="https://instagram.com/joshysanchez.tr" target="_blank" rel="noopener">Instagram</a>
         <a href="mailto:joshids8@gmail.com">Email</a>
-        <a href="#metodos">Entrenamiento</a>
+        <a href="#metodos">El programa</a>
         <a href="#contacto">Empezar</a>
       </div>
     </div>
